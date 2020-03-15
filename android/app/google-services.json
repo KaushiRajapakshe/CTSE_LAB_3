@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "475475017899",
+    "firebase_url": "https://ctse-lab-04-ee007.firebaseio.com",
+    "project_id": "ctse-lab-04-ee007",
+    "storage_bucket": "ctse-lab-04-ee007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475475017899:android:92708608be33a1af0df7ee",
+        "android_client_info": {
+          "package_name": "uk.co.thenetninja.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475475017899-l7250jc44m77umphnu3l7kreaftknm3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX7xxONc9duIais5_rIl6ll3NI2CDftVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475475017899-l7250jc44m77umphnu3l7kreaftknm3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,23 @@ import 'package:myapp/star-display.dart';
 class ReviewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final databaseReference = Firestore.instance.collection("review");
+
+    void getData() {
+      databaseReference
+          .getDocuments()
+          .then((QuerySnapshot snapshot) {
+        snapshot.documents.forEach((f) => print('${f.data}}'));
+      });
+    }
+    text = _multiLineTextFieldcontroller.text;
+    DocumentReference ref = await databaseReference
+        .add({
+      'text': text,
+      'rating': rating,
+      'date': date,
+      'image': image
+    });
     return Scaffold(
       appBar: AppBar(
           backgroundColor: Colors.transparent,
